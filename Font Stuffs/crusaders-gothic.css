@@ -10,99 +10,9 @@
   font-display: block;
 }
 
-@font-face {
-  font-family: "Crusaders Gothic Color";
-  src: url("CrusadersGothic-WhiteDetails.woff2?v=7") format("woff2"),
-       url("CrusadersGothic-WhiteDetails.ttf?v=7") format("truetype");
-  font-style: normal;
-  font-weight: 400;
-  font-display: block;
-}
-
-/*
-  These two monochrome fonts are derived from the exact same glyph outlines,
-  cmap, advances, kerning, and positioning data. The web preview stacks them
-  at the same origin instead of relying on browser-specific COLR layer offsets.
-*/
-@font-face {
-  font-family: "Crusaders Gothic Web Base";
-  src: url("CrusadersGothic-WebBase.woff2?v=7") format("woff2"),
-       url("CrusadersGothic-WebBase.ttf?v=7") format("truetype");
-  font-style: normal;
-  font-weight: 400;
-  font-display: block;
-}
-
-@font-face {
-  font-family: "Crusaders Gothic Web Inlays";
-  src: url("CrusadersGothic-WebInlays.woff2?v=7") format("woff2"),
-       url("CrusadersGothic-WebInlays.ttf?v=7") format("truetype");
-  font-style: normal;
-  font-weight: 400;
-  font-display: block;
-}
-
 .crusaders-gothic-transparent {
   font-family: "Crusaders Gothic Transparent", serif;
   font-style: normal;
   font-weight: 400;
   font-synthesis: none;
-}
-
-.crusaders-gothic-color {
-  font-family: "Crusaders Gothic Color", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-synthesis: none;
-}
-
-/* Use this class for the web version: base and detail glyphs share exact metrics. */
-.crusaders-gothic-white {
-  position: relative;
-  isolation: isolate;
-  font-style: normal;
-  font-weight: 400;
-  font-synthesis: none;
-  font-kerning: none;
-  font-variant-ligatures: none;
-  font-feature-settings: "kern" 0, "liga" 0, "clig" 0;
-  letter-spacing: 0;
-  word-spacing: 0;
-  line-height: 1.55;
-  white-space: normal;
-  overflow-wrap: anywhere;
-}
-
-.crusaders-gothic-white .base,
-.crusaders-gothic-white .inlays {
-  display: block;
-  width: 100%;
-  font-style: normal;
-  font-weight: 400;
-  font-synthesis: none;
-  font-kerning: none;
-  font-variant-ligatures: none;
-  font-feature-settings: "kern" 0, "liga" 0, "clig" 0;
-  letter-spacing: 0;
-  word-spacing: 0;
-  line-height: inherit;
-  white-space: normal;
-  overflow-wrap: inherit;
-  text-transform: none;
-}
-
-.crusaders-gothic-white .base {
-  position: relative;
-  z-index: 1;
-  color: #000;
-  font-family: "Crusaders Gothic Web Base", serif;
-}
-
-.crusaders-gothic-white .inlays {
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-  color: #fff;
-  pointer-events: none;
-  font-family: "Crusaders Gothic Web Inlays", serif;
 }
