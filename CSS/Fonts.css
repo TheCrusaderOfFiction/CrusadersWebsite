@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Crusaders Gothic Transparent";
+    src: url("../Font/CrusadersGothic-Transparent.woff2?v=7") format("woff2"),
+         url("../Font/CrusadersGothic-Transparent.ttf?v=7") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+}
