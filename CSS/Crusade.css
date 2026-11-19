@@ -68,3 +68,13 @@ header div:nth-child(n + 2) {
 header div:nth-child(n + 2):hover {
     background-color: #380000;
 }
+
+article {
+    top: 100px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
