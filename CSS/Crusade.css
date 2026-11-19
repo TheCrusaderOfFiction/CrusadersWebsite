@@ -49,13 +49,13 @@ a {
 }
 
 
-header div:nth-child(n + 2) {
+header a:nth-child(n + 2) {
     flex: 1;
     text-align: center;
     
 }
 
-header div:nth-child(n + 2) {
+header a:nth-child(n + 2) {
     flex: 1;
     align-self: stretch;
     display: flex;
@@ -65,7 +65,7 @@ header div:nth-child(n + 2) {
     transition: background-color 180ms ease;
 }
 
-header div:nth-child(n + 2):hover {
+header a:nth-child(n + 2):hover {
     background-color: #380000;
 }
 
