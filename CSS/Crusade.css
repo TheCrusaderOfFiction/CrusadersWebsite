@@ -69,12 +69,50 @@ header div:nth-child(n + 2):hover {
     background-color: #380000;
 }
 
-article {
-    top: 100px;
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 24px;
 }
 
-video {
-    width: 100%;
+main video {
+    display: block;
+    width: min(85%, 1200px);
+    max-height: calc(100vh - 148px);
     height: auto;
 }
+
+article {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+article a{
+    color: aqua;
+}
+
+em {
+    font-family: "Crusaders Gothic Transparent", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-synthesis: none;
+}
+
+#title{
+    font-family: "Crusaders Gothic Transparent", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-synthesis: none;
+    font-size: 50px;
+}
+
+.novel {
+    font-size: 30px;
+    text-indent: 20px;
+}
+
 
